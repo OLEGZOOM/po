@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="yandex-verification" content="YOUR_YANDEX_VERIFICATION_CODE" />
+    <meta name="description" content="Официальный партнер Группы Астра. Поставка сертифицированных лицензий Astra Linux Special Edition. Уровни защищенности Орел, Воронеж, Смоленск. Виртуализация Брест, ALD Pro, RuBackup.">
+    <meta name="keywords" content="astra linux купить, astra linux special edition, лицензия астра линукс, импортозамещение ос, воронеж смоленск орел, купить астра линукс, ос астра, альд про, брест виртуализация">
+    <meta name="author" content="Вождь ПО">
+    <meta name="copyright" content="Вождь ПО">
+    <meta name="robots" content="index, follow">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="canonical" href="https://vozhd-po.ru/astra-linux">
+    <title>Астра Линукс купить официально | Поставка Astra Linux Special Edition | Вождь ПО</title>
+    
+    <!-- Микроразметка Schema.org для организации -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Вождь ПО",
+        "url": "https://vozhd-po.ru",
+        "logo": "https://vozhd-po.ru/logo.png",
+        "description": "Официальный дистрибьютор программных продуктов Группы Астра",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "RU"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer service"
+        }
+    }
+    </script>
+    
+    <!-- Микроразметка BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Главная",
+                "item": "https://vozhd-po.ru"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Astra Linux",
+                "item": "https://vozhd-po.ru/astra-linux"
+            }
+        ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    
+    <style>
+        /* CSS Reset и базовые стили */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f8fafc;
+            color: #0f172a;
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* Контейнер с адаптивной шириной */
+        .container {
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Адаптивные отступы */
+        @media (min-width: 640px) {
+            .container {
+                padding: 0 32px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .container {
+                padding: 0 48px;
+            }
+        }
+
+        /* Header / Hero - адаптивный */
+        .header {
+            background: linear-gradient(135deg, #0B2447 0%, #1A4A7A 100%);
+            color: white;
+            padding: 40px 0 60px;
+            border-bottom: 4px solid #F59E0B;
+        }
+
+        @media (min-width: 768px) {
+            .header {
+                padding: 60px 0 80px;
+            }
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            margin-bottom: 32px;
+        }
+
+        @media (min-width: 768px) {
+            .logo {
+                font-size: 28px;
+                margin-bottom: 40px;
+            }
+        }
+
+        .logo span {
+            color: #F59E0B;
+        }
+
+        .badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(4px);
+            padding: 5px 12px;
+            border-radius: 40px;
+            font-size: 12px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        @media (min-width: 768px) {
+            .badge {
+                padding: 6px 14px;
+                font-size: 14px;
+                margin-bottom: 24px;
+            }
+        }
+
+        .hero-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            align-items: center;
+        }
+
+        @media (min-width: 768px) {
+            .hero-grid {
+                flex-direction: row;
+                gap: 48px;
+            }
+        }
+
+        .hero-content {
+            flex: 1;
+            text-align: center;
+        }
+
+        @media (min-width: 768px) {
+            .hero-content {
+                text-align: left;
+            }
+        }
+
+        .hero-title {
+            font-size: 28px;
+            font-weight: 800;
+            line-height: 1.25;
+            margin-bottom: 16px;
+        }
+
+        @media (min-width: 640px) {
+            .hero-title {
+                font-size: 36px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .hero-title {
+                font-size: 44px;
+            }
+        }
+
+        .hero-desc {
+            font-size: 16px;
+            opacity: 0.9;
+            margin-bottom: 24px;
+            max-width: 100%;
+        }
+
+        @media (min-width: 768px) {
+            .hero-desc {
+                font-size: 18px;
+                margin-bottom: 32px;
+                max-width: 600px;
+            }
+        }
+
+        .trust-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            justify-content: center;
+            margin-bottom: 24px;
+        }
+
+        @media (min-width: 768px) {
+            .trust-list {
+                gap: 24px;
+                justify-content: flex-start;
+                margin-bottom: 32px;
+            }
+        }
+
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        @media (min-width: 768px) {
+            .trust-item {
+                font-size: 14px;
+            }
+        }
+
+        .trust-item svg {
+            width: 18px;
+            height: 18px;
+            color: #F59E0B;
+            flex-shrink: 0;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #F59E0B;
+            color: #0B2447;
+            font-weight: 700;
+            padding: 12px 28px;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        @media (min-width: 768px) {
+            .btn {
+                padding: 14px 32px;
+                font-size: 16px;
+            }
+        }
+
+        .btn:hover {
+            background-color: #D97706;
+            transform: translateY(-2px);
+            color: white;
+        }
+
+        .hero-image {
+            flex: 1;
+            text-align: center;
+        }
+
+        .cert-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(8px);
+            border-radius: 32px;
+            padding: 16px 24px;
+        }
+
+        @media (min-width: 768px) {
+            .cert-badge {
+                gap: 20px;
+                padding: 20px 32px;
+            }
+        }
+
+        /* Секции */
+        .section {
+            padding: 48px 0;
+        }
+
+        @media (min-width: 768px) {
+            .section {
+                padding: 64px 0;
+            }
+        }
+
+        .section-dark {
+            background-color: #ffffff;
+            border-top: 1px solid #e2e8f0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        @media (min-width: 768px) {
+            .section-header {
+                margin-bottom: 48px;
+            }
+        }
+
+        .section-header h2 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        @media (min-width: 640px) {
+            .section-header h2 {
+                font-size: 28px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .section-header h2 {
+                font-size: 32px;
+            }
+        }
+
+        .section-header p {
+            font-size: 16px;
+            color: #475569;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 0 16px;
+        }
+
+        @media (min-width: 768px) {
+            .section-header p {
+                font-size: 18px;
+            }
+        }
+
+        /* Карточки продуктов - адаптивная сетка */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+
+        @media (min-width: 640px) {
+            .cards-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 28px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .cards-grid {
+                grid-template-columns: repeat(4, 1fr);
+                gap: 32px;
+            }
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 24px;
+            padding: 24px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 10px 15px -3px rgba(0,0,0,0.03);
+            transition: all 0.2s;
+            border: 1px solid #e2e8f0;
+            height: 100%;
+        }
+
+        @media (min-width: 768px) {
+            .product-card {
+                padding: 28px;
+            }
+        }
+
+        .product-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1);
+            border-color: #cbd5e1;
+        }
+
+        .card-icon {
+            width: 48px;
+            height: 48px;
+            background: #EFF6FF;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .card-icon svg {
+            width: 28px;
+            height: 28px;
+            color: #1A4A7A;
+        }
+
+        .card-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        @media (min-width: 768px) {
+            .card-title {
+                font-size: 22px;
+            }
+        }
+
+        .card-desc {
+            color: #475569;
+            margin-bottom: 20px;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        @media (min-width: 768px) {
+            .card-desc {
+                font-size: 15px;
+            }
+        }
+
+        .cert-tag {
+            font-size: 11px;
+            background: #f1f5f9;
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-weight: 600;
+            color: #0f172a;
+        }
+
+        @media (min-width: 768px) {
+            .cert-tag {
+                font-size: 12px;
+                padding: 4px 12px;
+            }
+        }
+
+        /* Карточки преимуществ */
+        .cards-grid-3 {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+
+        @media (min-width: 640px) {
+            .cards-grid-3 {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .cards-grid-3 .product-card h3 {
+            font-size: 18px;
+            margin-bottom: 12px;
+        }
+
+        /* Форма - адаптивная */
+        .form-block {
+            background: linear-gradient(125deg, #0B2447 0%, #1E3A5F 100%);
+            border-radius: 28px;
+            padding: 32px 24px;
+            color: white;
+            margin-top: 40px;
+        }
+
+        @media (min-width: 640px) {
+            .form-block {
+                padding: 40px 32px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .form-block {
+                border-radius: 36px;
+                padding: 48px;
+            }
+        }
+
+        .form-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
+
+        @media (min-width: 992px) {
+            .form-grid {
+                flex-direction: row;
+                gap: 48px;
+                align-items: center;
+            }
+        }
+
+        .form-content {
+            flex: 1;
+        }
+
+        .form-content h3 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        @media (min-width: 640px) {
+            .form-content h3 {
+                font-size: 28px;
+            }
+        }
+
+        .price-note {
+            background: rgba(245, 158, 11, 0.2);
+            border-left: 3px solid #F59E0B;
+            padding: 12px 16px;
+            border-radius: 16px;
+            margin-top: 20px;
+            font-size: 13px;
+        }
+
+        @media (min-width: 768px) {
+            .price-note {
+                padding: 12px 20px;
+                font-size: 14px;
+            }
+        }
+
+        .form-content ul {
+            margin-top: 20px;
+            list-style: none;
+        }
+
+        .form-content li {
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        @media (min-width: 768px) {
+            .form-content li {
+                font-size: 15px;
+            }
+        }
+
+        .form-fields {
+            flex: 1;
+            background: white;
+            padding: 28px 24px;
+            border-radius: 24px;
+            color: #0f172a;
+        }
+
+        @media (min-width: 640px) {
+            .form-fields {
+                padding: 32px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .form-fields {
+                border-radius: 28px;
+            }
+        }
+
+        .input-group {
+            margin-bottom: 18px;
+        }
+
+        .input-group input, .input-group textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid #cbd5e1;
+            border-radius: 16px;
+            font-family: inherit;
+            font-size: 15px;
+            transition: 0.2s;
+            -webkit-appearance: none;
+        }
+
+        @media (min-width: 768px) {
+            .input-group input, .input-group textarea {
+                padding: 14px 18px;
+            }
+        }
+
+        .input-group input:focus, .input-group textarea:focus {
+            outline: none;
+            border-color: #1A4A7A;
+            box-shadow: 0 0 0 3px rgba(26,74,122,0.1);
+        }
+
+        .btn-submit {
+            background: #0B2447;
+            color: white;
+            width: 100%;
+            border: none;
+            padding: 14px;
+            border-radius: 40px;
+            font-weight: 700;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .btn-submit:hover {
+            background: #1A4A7A;
+        }
+
+        .btn-submit:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .legal-text {
+            font-size: 11px;
+            color: #94a3b8;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        @media (min-width: 768px) {
+            .legal-text {
+                font-size: 12px;
+            }
+        }
+
+        .success-message {
+            text-align: center;
+            padding: 16px;
+            background: #dcfce7;
+            color: #166534;
+            border-radius: 16px;
+            margin-top: 16px;
+            font-size: 14px;
+        }
+
+        .error-message {
+            text-align: center;
+            padding: 16px;
+            background: #fee2e2;
+            color: #991b1b;
+            border-radius: 16px;
+            margin-top: 16px;
+            font-size: 14px;
+        }
+
+        /* Footer */
+        .footer {
+            background: #0f172a;
+            color: #94a3b8;
+            padding: 32px 0;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        @media (min-width: 768px) {
+            .footer {
+                font-size: 14px;
+            }
+        }
+
+        /* Скрытие ненужных элементов при печати */
+        @media print {
+            .btn, .form-block, .trust-list, .badge {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="logo">ВОЖДЬ ПО <span>| Официальный партнер</span></div>
+        <div class="hero-grid">
+            <div class="hero-content">
+                <div class="badge">⭐ Сертифицированный дистрибьютор «Группы Астра»</div>
+                <h1 class="hero-title">Astra Linux Special Edition — официальная поставка лицензий</h1>
+                <p class="hero-desc">Сертифицированная операционная система для гостайны и бизнеса. Уровни «Орел», «Воронеж», «Смоленск». Виртуализация «Брест», ALD Pro, RuBackup.</p>
+                <div class="trust-list">
+                    <div class="trust-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        <span>Реестр Минцифры</span>
+                    </div>
+                    <div class="trust-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        <span>ФСТЭК / Минобороны</span>
+                    </div>
+                    <div class="trust-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        <span>Поддержка Эльбрус и x86-64</span>
+                    </div>
+                </div>
+                <a href="#requestForm" class="btn">Рассчитать стоимость →</a>
+            </div>
+            <div class="hero-image">
+                <div class="cert-badge">
+                    <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L15 8.5L22 9.5L17 14L18.5 21L12 17.5L5.5 21L7 14L2 9.5L9 8.5L12 2Z" fill="#F59E0B" stroke="#F59E0B" stroke-width="1"/>
+                    </svg>
+                    <div style="text-align:left"><strong>Сертифицировано</strong><br>Эльбрус / x86-64</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <!-- Продуктовая сетка -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Программные продукты Группы Астра</h2>
+                <p>Сертифицированные решения для построения защищенных автоматизированных систем (КСПП)</p>
+            </div>
+            <div class="cards-grid">
+                <div class="product-card">
+                    <div class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004 15h4m0 0v4m0-4h12m-8-4V8m0 0V4m0 4h4m-4 0h-4" /></svg></div>
+                    <div class="card-title">Astra Linux Special Edition</div>
+                    <div class="card-desc">Уровни защищенности: «Орел» (базовый), «Воронеж» (усиленный), «Смоленск» (максимальный). Сертификаты ФСТЭК, МО, ФСБ.</div>
+                    <span class="cert-tag">РУСБ.10015-01 / РУСБ.10015-16</span>
+                </div>
+                <div class="product-card">
+                    <div class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+                    <div class="card-title">ALD Pro</div>
+                    <div class="card-desc">Доменная инфраструктура и централизованное управление политиками безопасности (замена Active Directory).</div>
+                    <span class="cert-tag">Контроллер домена + управляемые устройства</span>
+                </div>
+                <div class="product-card">
+                    <div class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" /></svg></div>
+                    <div class="card-title">«Брест» + AIC</div>
+                    <div class="card-desc">Средства виртуализации серверов. Высокая производительность, поддержка Windows/Linux гостевых систем.</div>
+                    <span class="cert-tag">Сертифицированная виртуализация</span>
+                </div>
+                <div class="product-card">
+                    <div class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2 1 3 3 3h10c2 0 3-1 3-3V7c0-2-1-3-3-3H7C5 4 4 5 4 7z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 12m-3 0a3 3 0 100-6 3 3 0 000 6z" /></svg></div>
+                    <div class="card-title">Резервное копирование</div>
+                    <div class="card-desc">RuBackup OneClick — система резервного копирования данных с гибкими настройками для ЦОД.</div>
+                    <span class="cert-tag">Совместимость с ALD/Брест</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Причины выбрать нас -->
+    <section class="section-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2>Почему выбирают «Вождь ПО»?</h2>
+                <p>Прямой партнерский статус и соблюдение NDA гарантируют лучшие условия</p>
+            </div>
+            <div class="cards-grid-3">
+                <div class="product-card"><h3>🔒 Нарушение NDA исключено</h3><p>Цены не публикуются в открытом доступе — коммерческое предложение высылается строго по запросу, что полностью соответствует соглашению о конфиденциальности Группы Астра.</p></div>
+                <div class="product-card"><h3>📄 Лицензии в реестре</h3><p>Все дистрибутивы включены в Единый реестр отечественного ПО Минцифры для получения господдержки.</p></div>
+                <div class="product-card"><h3>⚙️ Технический аудит</h3><p>Бесплатная консультация по миграции с Windows Server, MS SQL и гипервизоров на инфраструктуру Astra.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Форма с отправкой в Telegram -->
+    <section class="section">
+        <div class="container" id="requestForm">
+            <div class="form-block">
+                <div class="form-grid">
+                    <div class="form-content">
+                        <h3>Получите индивидуальное коммерческое предложение</h3>
+                        <p style="margin-bottom: 8px;">В рамках партнерского NDA стоимость лицензий не публикуется.</p>
+                        <p>Оставьте заявку — мы подготовим расчет с учетом:</p>
+                        <ul>
+                            <li>✓ Количества ядер / рабочих станций</li>
+                            <li>✓ Уровня защищенности («Орел», «Воронеж», «Смоленск»)</li>
+                            <li>✓ Типа обновлений (Тип 1 / Тип 2 / Техподдержка)</li>
+                            <li>✓ Архитектуры (x86-64 или Эльбрус)</li>
+                        </ul>
+                        <div class="price-note">
+                            ⚡ Соглашение о неразглашении (NDA) строго соблюдается — данные предоставляются только по запросу клиента.
+                        </div>
+                    </div>
+                    <div class="form-fields">
+                        <form id="leadForm">
+                            <div class="input-group">
+                                <input type="text" id="companyName" name="company" placeholder="Название организации" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" id="product" name="product" placeholder="Интересующий продукт" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="tel" id="phone" name="phone" placeholder="Контактный телефон" required>
+                            </div>
+                            <div id="formStatus"></div>
+                            <button type="submit" id="submitBtn" class="btn-submit">Получить коммерческое предложение →</button>
+                            <p class="legal-text">Нажимая на кнопку, вы соглашаетесь с обработкой персональных данных.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>© 2025 ИП Петернин Иван Васильевич / «Вождь ПО». Все торговые марки принадлежат правообладателям.</p>
+        <p style="margin-top: 8px;">Официальный партнер «Группы Астра». Информация о лицензировании предоставляется в соответствии с требованиями NDA.</p>
+    </div>
+</footer>
+
+<script>
+    // Конфигурация Telegram бота
+    const TELEGRAM_BOT_TOKEN = '8728852599:AAFAc7rvqB2tD4ISMl5Op7D8AtyNOl6upw0';
+    const TELEGRAM_CHAT_ID = '262520571';
+
+    const form = document.getElementById('leadForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const formStatus = document.getElementById('formStatus');
+
+    async function sendToTelegram(company, product, phone) {
+        const message = `🔔 *НОВАЯ ЗАЯВКА* 🔔\n\n🏢 *Компания:* ${company}\n📦 *Продукт:* ${product}\n📞 *Телефон:* ${phone}\n\n⏰ *Время:* ${new Date().toLocaleString('ru-RU')}`;
+        
+        const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
+        
+        const response = await fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                chat_id: TELEGRAM_CHAT_ID,
+                text: message,
+                parse_mode: 'Markdown'
+            })
+        });
+        
+        return response.ok;
+    }
+
+    form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        
+        const company = document.getElementById('companyName').value.trim();
+        const product = document.getElementById('product').value.trim();
+        const phone = document.getElementById('phone').value.trim();
+        
+        if (!company || !product || !phone) {
+            formStatus.innerHTML = '<div class="error-message">⚠️ Пожалуйста, заполните все поля!</div>';
+            setTimeout(() => formStatus.innerHTML = '', 3000);
+            return;
+        }
+        
+        if (phone.length < 10) {
+            formStatus.innerHTML = '<div class="error-message">⚠️ Пожалуйста, укажите корректный номер телефона!</div>';
+            setTimeout(() => formStatus.innerHTML = '', 3000);
+            return;
+        }
+        
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Отправка...';
+        formStatus.innerHTML = '<div class="success-message" style="background:#e0f2fe; color:#0369a1;">⏳ Отправка заявки...</div>';
+        
+        try {
+            const success = await sendToTelegram(company, product, phone);
+            
+            if (success) {
+                formStatus.innerHTML = '<div class="success-message">✅ Заявка успешно отправлена! Мы свяжемся с вами в ближайшее время.</div>';
+                form.reset();
+            } else {
+                throw new Error('Ошибка отправки');
+            }
+        } catch (error) {
+            console.error('Ошибка:', error);
+            formStatus.innerHTML = '<div class="error-message">❌ Произошла ошибка. Пожалуйста, попробуйте позже.</div>';
+        } finally {
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Получить коммерческое предложение →';
+            setTimeout(() => {
+                if (formStatus.innerHTML.includes('успешно') || formStatus.innerHTML.includes('Ошибка')) {
+                    formStatus.innerHTML = '';
+                }
+            }, 5000);
+        }
+    });
+</script>
+</body>
+</html>
