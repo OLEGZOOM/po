@@ -88,7 +88,6 @@
             padding: 0 20px;
         }
 
-        /* Адаптивные отступы */
         @media (min-width: 640px) {
             .container {
                 padding: 0 32px;
@@ -359,7 +358,7 @@
             }
         }
 
-        /* Карточки продуктов - адаптивная сетка */
+        /* Карточки продуктов */
         .cards-grid {
             display: grid;
             grid-template-columns: 1fr;
@@ -479,7 +478,7 @@
             margin-bottom: 12px;
         }
 
-        /* Форма - адаптивная */
+        /* Форма */
         .form-block {
             background: linear-gradient(125deg, #0B2447 0%, #1E3A5F 100%);
             border-radius: 28px;
@@ -680,7 +679,6 @@
             }
         }
 
-        /* Скрытие ненужных элементов при печати */
         @media print {
             .btn, .form-block, .trust-list, .badge {
                 display: none;
@@ -727,7 +725,6 @@
 </header>
 
 <main>
-    <!-- Продуктовая сетка -->
     <section class="section">
         <div class="container">
             <div class="section-header">
@@ -763,7 +760,6 @@
         </div>
     </section>
 
-    <!-- Причины выбрать нас -->
     <section class="section-dark">
         <div class="container">
             <div class="section-header">
@@ -778,7 +774,7 @@
         </div>
     </section>
 
-    <!-- Форма с отправкой в Telegram -->
+    <!-- Форма с отправкой в Telegram (данные подставляются через GitHub Secrets) -->
     <section class="section">
         <div class="container" id="requestForm">
             <div class="form-block">
@@ -827,9 +823,10 @@
 </footer>
 
 <script>
-    // Конфигурация Telegram бота
-    const TELEGRAM_BOT_TOKEN = '8728852599:AAFAc7rvqB2tD4ISMl5Op7D8AtyNOl6upw0';
-    const TELEGRAM_CHAT_ID = '262520571';
+    // ВНИМАНИЕ: Эти переменные будут заменены на реальные значения на этапе сборки GitHub Actions
+    // В исходном коде на GitHub Pages они будут выглядеть как реальные токены
+    const TELEGRAM_BOT_TOKEN = '{{secrets.TELEGRAM_BOT_TOKEN}}';
+    const TELEGRAM_CHAT_ID = '{{secrets.TELEGRAM_CHAT_ID}}';
 
     const form = document.getElementById('leadForm');
     const submitBtn = document.getElementById('submitBtn');
