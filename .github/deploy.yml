@@ -1,0 +1,36 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Replace secrets in HTML
+        run: |
+          # Заменяем плейсхолдеры на реальные значения из GitHub Secrets
+          sed -i "s/{{secrets.TELEGRAM_BOT_TOKEN}}/${{ secrets.TELEGRAM_BOT_TOKEN }}/g" index.html
+          sed -i "s/{{secrets.TELEGRAM_CHAT_ID}}/${{ secrets.TELEGRAM_CHAT_ID }}/g" index.html
+          
+          # Выводим сообщение об успешной замене (для отладки)
+          echo "✅ Secrets successfully injected into index.html"
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
